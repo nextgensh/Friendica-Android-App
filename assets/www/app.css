@@ -1,0 +1,21 @@
+body {
+}
+
+.content {
+	 background: -webkit-gradient(linear, left top, left bottom, from(#9f9999), to(#ffffff)); 
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0px;
+}
+
+#friendica_logo {
+	position: relative;
+	margin: 20%;
+}
+
+.loading {
+	position: relative;
+	margin: 5%;
+}
