@@ -10,8 +10,8 @@ var oauth = OAuth({
 
 document.addEventListener("deviceready",deviceReady,false);
 function deviceReady(){
-	console.log('Friendika: Setting up database now');
-	db.setup();
+	//console.log('Friendika: Setting up database now');
+	//db.setup();
 	console.log('Friendika: Setting Oauth up');
 	connection.setup(oauth);		
 }
